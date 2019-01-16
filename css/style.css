@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    background: #ecf0f5;
+}
+.heading{
+    font-weight: bold;
+}
+.invoice{
+    min-height: 600px;
+    position: relative;
+    background: #fff;
+    border: 1px solid #f4f4f4;
+    padding: 0px;
+    margin: 10px 25px;
+    border-radius: 5px;
+}
+.line{
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+.result{
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.result-mm {
+    font-family: 'Padauk', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+.def{
+    font-family: 'Padauk', sans-serif;
+    font-weight: bold;
+}
+.word{
+    font-size: 16px;
+    font-weight: bold;
+}
+.dict{
+    background:#605ca8;
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border-radius: 10px;
+}
+.dict-ox{
+    background:#b13636;
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border-radius: 10px;
+}
+.developed{
+    font-weight: bold;
+    padding: 0px 20px 0px 0px;
+    color: rgb(182, 61, 61);
+}
