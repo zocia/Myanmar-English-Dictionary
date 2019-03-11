@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="fontawesome/css/fontawesome-all.min.css">
     <script src="js/bootstrap.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Padauk|Source+Sans+Pro|Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href='https://mmwebfonts.comquas.com/fonts/?font=padauk' />
 </head>
 <body>
     <div class="container">

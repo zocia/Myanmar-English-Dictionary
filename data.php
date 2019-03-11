@@ -21,9 +21,10 @@ else{// if string have some text
                 $heading = $row ['Word'];  
                 $grammar = $row ['state'];
                 $meaning = $row ['def'];
+                $final_def = $rabbit->zg2uni($meaning);
                 echo "<a class='list-group-item list-group-item-warning result result-full' value='".$id."'>".$heading."<span class='dict pull-right'>Ornagai</span>
                 <h6 class='hidden-lg'><i class='fab fa-teamspeak'></i> ".$grammar."</h6>
-                <h6 class='hidden-lg'><i class='fas fa-arrow-alt-circle-right'></i> ".$meaning."</h6>
+                <h6 class='hidden-lg def'><i class='fas fa-arrow-alt-circle-right'></i> ".$final_def."</h6>
                 </a>";
             } 
         }// end there is result
