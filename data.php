@@ -57,7 +57,7 @@ else{// if string have some text
         else{ // if search string is unicode
             $mm_search = $rabbit->uni2zg($search);
         }
-        $query = "SELECT * FROM dblist WHERE approve=1 AND def LIKE '$mm_search%' Limit 12";
+        $query = "SELECT * FROM dblist WHERE approve=1 AND def LIKE '%$mm_search%' Limit 12";
         $result = $conn->query($query);
         if ($result->num_rows == 0){// if no result
             $heading= "No Match Found";
