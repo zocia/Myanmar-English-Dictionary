@@ -9,7 +9,7 @@ $search = mysqli_real_escape_string($conn,trim($_POST['txt'])); // filter sql in
 if($search=='') {echo "<a class='list-group-item list-group-item-danger result'>Searh Something</a>";} //if string is empty
 else{// if string have some text
     if (preg_match('/[A-Za-z \s]+/', $search) == true){// if search string is english text
-        $query = "SELECT * FROM dblist WHERE approve=1 AND Word LIKE '$search%' limit 6";
+        $query = "SELECT * FROM dblist WHERE approve=1 AND Word LIKE '$search%' limit 50";
         $result = $conn->query($query);
         if ($result->num_rows == 0){// if no result
             $heading= "No Match Ornagi Dict";
@@ -29,7 +29,7 @@ else{// if string have some text
             } 
         }// end there is result
 
-        $engQuery = "SELECT * FROM entries WHERE approve=1 AND Word LIKE '$search%' limit 6";
+        $engQuery = "SELECT * FROM entries WHERE approve=1 AND Word LIKE '$search%' limit 50";
         $engResult = $conn->query($engQuery);
         if ($engResult->num_rows == 0){// if no result
             $no_match= "No Match Oxford Dict";
@@ -57,7 +57,7 @@ else{// if string have some text
         else{ // if search string is unicode
             $mm_search = $rabbit->uni2zg($search);
         }
-        $query = "SELECT * FROM dblist WHERE approve=1 AND def LIKE '%$mm_search%' Limit 12";
+        $query = "SELECT * FROM dblist WHERE approve=1 AND def LIKE '%$mm_search%' Limit 50";
         $result = $conn->query($query);
         if ($result->num_rows == 0){// if no result
             $heading= "No Match Found";
