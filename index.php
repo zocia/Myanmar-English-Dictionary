@@ -36,13 +36,13 @@
                 Myan Dictionary</h4>
             </div>
             <div class="col-sm-3"></div>
-            <div class="col-sm-3">
+            <div class="col-sm-3 box">
                 <div class="input-group pull-right">
                     <div class="input-group-addon"><i class="fa fa-search" aria-hidden="true"></i></div>
                     <input type="text" class="form-control" name='Search' id="search" placeholder="Search Here">
                 </div>
             </div>
-        </div><br><br>
+        </div><br>
         
         <div class="row">
             <div class="col-sm-4">
@@ -64,10 +64,10 @@
             </div>
             <div class="col-sm-8">
             <div class="addnew">
-            <button class="btn btn-flat btn-sm btn-danger" data-toggle="modal" data-target="#addnew" >
+            <button class="btn btn-flat btn-sm btn-info" data-toggle="modal" data-target="#addnew" >
             <i class="fas fa-edit"></i> Add New Word
             </button>
-            <span class="pull-right developed">Developed By AJ</span>
+            <span class="pull-right text-info">Developed By AJ</span>
             </div><hr>
                 <div class="full-meaning hidden-xs">
                 <div>

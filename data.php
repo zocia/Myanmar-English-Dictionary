@@ -22,7 +22,7 @@ else{// if string have some text
                 $grammar = $row ['state'];
                 $meaning = $row ['def'];
                 $final_def = $rabbit->zg2uni($meaning);
-                echo "<a class='list-group-item list-group-item-warning result result-full' value='".$id."'>".$heading."<span class='dict pull-right'>Ornagai</span>
+                echo "<a class='list-group-item list-group-item-warning result result-full' value='".$id."'>".$heading."
                 <h6 class='hidden-lg'><i class='fab fa-teamspeak'></i> ".$grammar."</h6>
                 <h6 class='hidden-lg def'><i class='fas fa-arrow-alt-circle-right'></i> ".$final_def."</h6>
                 </a>";
@@ -41,7 +41,7 @@ else{// if string have some text
                 $eng_heading = $eng_row ['Word'];  
                 $eng_grammar = $eng_row ['state'];
                 $eng_meaning = $eng_row ['def'];
-                echo "<a class='list-group-item list-group-item-info result eng-result-full' value='".$eng_id."'> ".$eng_heading."<span class='dict-ox pull-right'>Oxford</span>
+                echo "<a class='list-group-item list-group-item-info result eng-result-full' value='".$eng_id."'> ".$eng_heading."
                 <h6 class='hidden-lg'><i class='fab fa-teamspeak'></i> ".$eng_grammar."</h6>
                 <h6 class='hidden-lg'><i class='fas fa-arrow-alt-circle-right'></i> ".$eng_meaning."</h6>
                 </a>";
@@ -70,7 +70,7 @@ else{// if string have some text
                 $grammar = $row ['state'];
                 $meaning = $row ['def'];
                 $final = $rabbit->zg2uni($meaning); // change result to unicode character
-                echo "<a class='list-group-item list-group-item-warning result-mm result-full' value='".$id."'>".$final."<span class='dict pull-right'>Ornagai</span>
+                echo "<a class='list-group-item list-group-item-warning result-mm result-full' value='".$id."'>".$final."
                 <h6 class='hidden-lg'><i class='fab fa-teamspeak'></i> ".$grammar."</h6>
                 <h6 class='hidden-lg'><i class='fas fa-arrow-alt-circle-right'></i> ".$heading."</h6>
                 </a>";

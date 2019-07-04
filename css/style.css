@@ -70,3 +70,35 @@ body{
     padding: 0px 20px 0px 0px;
     color: rgb(182, 61, 61);
 }
+
+@media (max-width: 768px) {
+    .line {
+      padding: 10px 0px 0px 0px !important;
+    }
+    .line .heading{
+        display: none;
+    }
+    .line .box{
+        padding: 0px;
+    }
+    .meaning{
+        min-height: 600px;
+    }
+    .list-group-item-warning ,.list-group-item-info {
+        background: white !important;
+        color: black !important;
+    }
+    .list-group{
+        padding-left: 0;
+        margin-bottom: 20px;
+        box-shadow: 0 0 1px rgba(0,0,0,.125), 0 1px 3px rgba(0,0,0,.2);
+        border-radius: 5px;
+    }
+    .invoice{
+        padding-right: 5px !important;
+        padding-left: 5px !important;
+    }
+    h6{
+        text-align: justify;
+    }
+  }
