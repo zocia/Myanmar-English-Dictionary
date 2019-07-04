@@ -1,3 +1,4 @@
+<style>
 body{
     margin: 0;
     padding: 10px;
@@ -102,3 +103,5 @@ body{
         text-align: justify;
     }
   }
+
+</style>

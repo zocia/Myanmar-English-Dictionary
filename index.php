@@ -19,7 +19,7 @@
     <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
     <script src="js/jquery.min.js"></script>
-    <link rel="stylesheet" href="css/style.css">
+    <?php include 'css/style.php'; ?>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="fontawesome/css/fontawesome-all.min.css">
     <script src="js/bootstrap.js"></script>
