@@ -96,11 +96,16 @@ body{
         border-radius: 5px;
     }
     .invoice{
-        padding-right: 5px !important;
-        padding-left: 5px !important;
+        padding-right: 10px !important;
+        padding-left: 10px !important;
+        border-radius: 0px !important;
+        margin: 0 !important;
     }
     h6{
         text-align: justify;
+    }
+    body{
+        padding: 0px !important;
     }
   }
 
